@@ -45,35 +45,16 @@
 	<title>Joystick</title>
 </head>
 <body>
-   <div style="z-index: 1 !important">
-   <div class="Menu hide" id="menu">
-   <table style="width: 100% !important;">
-   <tr>
-   <td onclick="hideMenu();">
-   <p style="text-align: right !important; height: 10%; font-size: 3.5vw !important;" class="navitem">x &nbsp;&nbsp;</p>
-   </td>
-   </tr>
-   <tr>
-   <td>
-   <ul>
-   <li class="navitem" onclick="location.href='../index.html'">Home</li>
-   <li class="navitem" onclick="location.href='../documentation.html'">Documentation</li>
-   <li class="navitem" onclick="location.href='https://github.com/Zeyuzhao/RPiArduBot/'">Repository</li>
-   <li class="navitem" onclick="location.href='../about.html'">About</li>
-   </ul>
-   </td>
-   </tr>
-   </table>
-   </div>
-   <div class="nav">
-      <table style="border: none; top: 0px; width: 100% !important;">
+   <div class="nav" style="z-index: 1;">
+      <table style="border: none; top: 0px;" align="center">
 	  <tr style="height: 100% !important;">
-	  <td class="menuopen" style="border: none; width: 12.5% !important;" onclick="showMenu();">&#8801; </td>
-	  <td style="width: 75% !important;">RPiArduBot</td>
-	  <td style="width: 12.5% !important;"> </td>
+	  <td style="width: 25%;">RPiArduBot</td>
+	  <td class="navitem" style="border: none; width: 12.5%;" onclick="location.href='../index.html'">Home</td>
+	  <td class="navitem" style="border: none; width: 12.5%;" onclick="location.href='../documentation.html'">Documentation</td>
+	  <td class="navitem" style="border: none; width: 12.5%;" onclick="location.href='https://github.com/Zeyuzhao/RPiArduBot/'">Repository</td>
+      <td class="navitem" style="border: none; width: 12.5%;" onclick="location.href='../about.html'">About</td>
 	  </tr>
 	  </table>
-   </div>
    </div>
     <div id = "wrapper">
       <img class = "box" id = "image"></img>
